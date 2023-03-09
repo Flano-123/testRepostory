@@ -1,0 +1,86 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-image: url("../img/login-bg.jpg");
+    background-size: cover;
+}
+
+.login {
+    width: 100%;
+    /*height: 18.5rem;*/
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 11.5rem;
+    align-self: flex-start;
+    padding: 1.5625rem 1.5625rem 0.3125rem 1.5625rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.form_title {
+    width: 100%;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    color: #707070;
+}
+
+.form_content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.form_item {
+    width: 100%;
+    height: 38px;
+    line-height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.form_input {
+    width: 100%;
+    border: 1px solid #DCDFE6;
+    border-radius: 4px;
+}
+
+.form_bottom_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form_button {
+    background-color: #1890ff;
+    color: white;
+    border: 1px solid #DCDFE6;
+    border-radius: 4px;
+    height: 38px;
+    width: 100%;
+}
+
+.login_footer {
+    align-self: flex-end;
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 0.7rem;
+    letter-spacing: 0.04rem
+}
